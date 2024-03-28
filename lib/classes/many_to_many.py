@@ -38,11 +38,11 @@ class Author:
         # if isinstance(article, Article):
         return list(set([article.magazine for article in self.articles()]))
 
-    def add_article(self, magazine, title):
-        pass
+    # def add_article(self, magazine, title):
+    #     pass
 
-    def topic_areas(self):
-        pass
+    # def topic_areas(self):
+    #     pass
 
 class Magazine:
 
@@ -80,8 +80,8 @@ class Magazine:
         # if isinstance(author, Author):
         return list(set([article.author for article in self.articles()]))
 
-    def article_titles(self):
-        pass
+    # def article_titles(self):
+    #     pass
 
-    def contributing_authors(self):
-        pass
+    # def contributing_authors(self):
+    #     pass
